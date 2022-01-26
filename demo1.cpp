@@ -47,10 +47,10 @@ inline void RSM(int n,int m){
             leftsize=(left_end_x-j+1)*(left_end_y-i+1);
             if(rightsize<leftsize){
                 fullcolor(j,i,left_end_x,left_end_y);
-                printf("[%d,%d]->[%d,%d]=[%d] size=%d\n",j,i,left_end_x,left_end_y,colors[i][j],leftsize);
+                printf("[%d,%d]->[%d,%d]=[%d] size=[%d]\n",j,i,left_end_x,left_end_y,colors[i][j],leftsize);
             }else{
                 fullcolor(j,i,right_end_x,right_end_y);
-                printf("[%d,%d]->[%d,%d]=[%d] size=%d\n",j,i,right_end_x,right_end_y,colors[i][j],rightsize);
+                printf("[%d,%d]->[%d,%d]=[%d] size=[%d]\n",j,i,right_end_x,right_end_y,colors[i][j],rightsize);
             }
         }
     }
