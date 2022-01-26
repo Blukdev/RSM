@@ -18,7 +18,7 @@ inline void fullcolor(int fromx,int fromy,int tox,int toy){
 }
 inline void RSM(int n,int m){
     int rex,rey,lex,ley;
-    for(int i=1;i<=n;++i){
+    for(int i=1;i<=n;++i)
         for(int j=1;j<=m;++j){
             if(!Map[i][j])continue;
             for(rex=j+1;rex<=m;++rex)
@@ -44,7 +44,6 @@ inline void RSM(int n,int m){
                 fullcolor(j,i,rex,rey);
             }
         }
-    }
 }
 int main(){
     int n,m;
