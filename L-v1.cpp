@@ -1,3 +1,13 @@
+/*
+ ____  ____  __  __       _     
+|  _ \/ ___||  \/  |     | |    
+| |_) \___ \| |\/| |_____| |    
+|  _ < ___) | |  | |_____| |___ 
+|_| \_\____/|_|  |_|     |_____|
+                                
+RSM-Lampese version. V0.1
+Copyright (c) 2022 Bluk Dev
+*/
 #include<cstdio>
 using namespace std;
 int Map[105][105];
